@@ -1,0 +1,21 @@
+<div class="container mt-5">
+    <div *ngIf="book" class="row animate__animated animate__bounce animate__fadeIn">
+        <div class="col-md-3">
+            <img style="width: 250px; height: 350px;" class="rounded" src="{{ book.cover }}" alt="book cover">
+        </div>
+
+        <div class="col-md-7">
+            <p><strong>ID: </strong>{{ book.ID }}</p>
+            <p><strong>Title: </strong>{{ book.title }}</p>
+            <p><strong>Author: </strong>{{ book.author }}</p>
+            <p><strong>Publisher date: </strong>{{ book.publisher_date }}</p>
+            <p><strong>Pages: </strong>{{ book.pages }}</p>
+            <p><strong>Language: </strong>{{ book.language }}</p>
+            <p><strong>Abstract: </strong>{{ book.content_short }}</p>
+        </div>
+
+        <div class="col-md-2">
+            <a class="btn btn-danger" routerLink="/">Back</a>
+        </div>
+    </div>
+</div>

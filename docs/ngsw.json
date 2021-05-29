@@ -1,0 +1,101 @@
+{
+  "configVersion": 1,
+  "timestamp": 1622327685783,
+  "index": "https://andy3blender.github.io/BooksPwa/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://andy3blender.github.io/BooksPwa/favicon.ico",
+        "https://andy3blender.github.io/BooksPwa/index.html",
+        "https://andy3blender.github.io/BooksPwa/main.b329cfe81c8fd4055e4a.js",
+        "https://andy3blender.github.io/BooksPwa/manifest.webmanifest",
+        "https://andy3blender.github.io/BooksPwa/polyfills.94daefd414b8355106ab.js",
+        "https://andy3blender.github.io/BooksPwa/runtime.7b63b9fd40098a2e8207.js",
+        "https://andy3blender.github.io/BooksPwa/styles.3ff695c00d717f2d2a11.css"
+      ],
+      "patterns": [
+        "https:\\/\\/cdn\\.jsdelivr\\.net\\/npm\\/bootstrap@5\\.0\\.1\\/dist\\/css\\/bootstrap\\.min\\.css"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://andy3blender.github.io/BooksPwa/assets/css/animate.css",
+        "https://andy3blender.github.io/BooksPwa/assets/icons/icon-128x128.png",
+        "https://andy3blender.github.io/BooksPwa/assets/icons/icon-144x144.png",
+        "https://andy3blender.github.io/BooksPwa/assets/icons/icon-152x152.png",
+        "https://andy3blender.github.io/BooksPwa/assets/icons/icon-192x192.png",
+        "https://andy3blender.github.io/BooksPwa/assets/icons/icon-384x384.png",
+        "https://andy3blender.github.io/BooksPwa/assets/icons/icon-512x512.png",
+        "https://andy3blender.github.io/BooksPwa/assets/icons/icon-72x72.png",
+        "https://andy3blender.github.io/BooksPwa/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "books-api",
+      "patterns": [
+        "https:\\/\\/www\\.etnassoft\\.com\\/api\\/v1\\/get\\/.*",
+        "https:\\/\\/olcovers2\\.blob\\.core\\.windows\\.net\\/coverswp\\/2018\\/12\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 10,
+      "maxAge": 3600000,
+      "timeoutMs": 1000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "https://andy3blender.github.io/BooksPwa/assets/css/animate.css": "b81ef1b22de26af8a7a4656f565fbc91a69d7518",
+    "https://andy3blender.github.io/BooksPwa/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://andy3blender.github.io/BooksPwa/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://andy3blender.github.io/BooksPwa/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://andy3blender.github.io/BooksPwa/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://andy3blender.github.io/BooksPwa/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://andy3blender.github.io/BooksPwa/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://andy3blender.github.io/BooksPwa/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://andy3blender.github.io/BooksPwa/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://andy3blender.github.io/BooksPwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://andy3blender.github.io/BooksPwa/index.html": "a430f0ce0c811269792f6db52a661a747568c66c",
+    "https://andy3blender.github.io/BooksPwa/main.b329cfe81c8fd4055e4a.js": "e174b8a1e97caf498f2ce8da240bac2ebc5097af",
+    "https://andy3blender.github.io/BooksPwa/manifest.webmanifest": "030d7edf197406e1dd15cf0f9c1b8f7028e19e8d",
+    "https://andy3blender.github.io/BooksPwa/polyfills.94daefd414b8355106ab.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
+    "https://andy3blender.github.io/BooksPwa/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://andy3blender.github.io/BooksPwa/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
